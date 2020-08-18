@@ -1,6 +1,6 @@
 'use strict';
 
-const PropertyDefinable = require('xsd2jsonschema').PropertyDefinable;
+const PropertyDefinable = require('@ghilainm/xsd2jsonschema').PropertyDefinable;
 
 describe('PropertyDefinable using definePropertiesFromArray() for basic getter/setter Test -', function() {
     class Enumerable extends PropertyDefinable {

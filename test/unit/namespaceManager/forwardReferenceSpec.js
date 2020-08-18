@@ -1,15 +1,15 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:ForwardReferenceSpec');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:ForwardReferenceSpec');
 
 const clone = require('clone');
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const JsonSchemaFileDraft04 = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const JsonSchemaRef = require('xsd2jsonschema').JsonSchemaRef;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const CONSTANTS = require('xsd2jsonschema').Constants;
-const ForwardReference = require('xsd2jsonschema').ForwardReference;
+const BuiltInTypeConverter = require('@ghilainm/xsd2jsonschema').BuiltInTypeConverter;
+const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
+const JsonSchemaFileDraft04 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaRef = require('@ghilainm/xsd2jsonschema').JsonSchemaRef;
+const NamespaceManager = require('@ghilainm/xsd2jsonschema').NamespaceManager;
+const CONSTANTS = require('@ghilainm/xsd2jsonschema').Constants;
+const ForwardReference = require('@ghilainm/xsd2jsonschema').ForwardReference;
 
 describe('ForwardReference Test - ', function() {
     var namespaceManager;

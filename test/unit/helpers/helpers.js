@@ -1,9 +1,9 @@
 'use strict';
 
 const fs = require('fs-extra');
-const JsonSchemaFile = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const JsonSchemaTypes = require('xsd2jsonschema').JsonSchemaTypes;
-const JsonSchemaFormats = require('xsd2jsonschema').JsonSchemaFormats;
+const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaTypes = require('@ghilainm/xsd2jsonschema').JsonSchemaTypes;
+const JsonSchemaFormats = require('@ghilainm/xsd2jsonschema').JsonSchemaFormats;
 
 beforeEach(function() {
     this.buildEverythingJsonSchema = function(namespaceMode) {

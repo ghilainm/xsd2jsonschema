@@ -1,14 +1,10 @@
 {
-  "name": "xsd2jsonschema",
+  "name": "@ghilainm/xsd2jsonschema",
   "description": "A pure JavaScript library for converting complex XML Schemas into equivalent JSON Schemas.",
-  "version": "0.3.7",
+  "version": "0.0.1",
   "homepage": "http://www.xsd2jsonschema.org",
   "license": "Apache-2.0",
-  "author": {
-    "name": "Andrew Bober",
-    "email": "andy@andrewbober.com",
-    "url": "http://www.andrewbober.com"
-  },
+  "author": "Andrew Bober <andy@andrewbober.com> (http://www.andrewbober.com)",
   "contributors": [],
   "keywords": [
     "xml",
@@ -29,7 +25,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewbober/xsd2jsonschema.git"
+    "url": "git+https://github.com/andrewbober/xsd2jsonschema.git"
   },
   "engines": {
     "node": ">=6.11.0"
@@ -69,6 +65,14 @@
     "jsdoc": "^3.6.3",
     "jsdoc-oblivion": "0.0.4",
     "nyc": "^14.1.0",
-    "require-self": "^0.1.0"
+    "require-self": "^0.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewbober/xsd2jsonschema/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
   }
 }

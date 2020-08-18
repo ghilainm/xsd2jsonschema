@@ -1,8 +1,8 @@
 "use strict";
 
-const XsdFile = require("xsd2jsonschema").XsdFile;
-const BaseConverter = require("xsd2jsonschema").BaseConverter;
-const JsonSchemaFileDraft04 = require("xsd2jsonschema").JsonSchemaFileDraft04;
+const XsdFile = require("@ghilainm/xsd2jsonschema").XsdFile;
+const BaseConverter = require("@ghilainm/xsd2jsonschema").BaseConverter;
+const JsonSchemaFileDraft04 = require("@ghilainm/xsd2jsonschema").JsonSchemaFileDraft04;
 
 describe("BaseConverter <choice>", function() {
     var bc;

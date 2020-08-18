@@ -1,15 +1,15 @@
 'use strict';
 
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const XsdElements = require('xsd2jsonschema').XsdElements;
-const JsonSchemaFileDraft04 = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const ConverterDraft04 = require('xsd2jsonschema').ConverterDraft04;
-const BaseSpecialCaseIdentifier = require('xsd2jsonschema').BaseSpecialCaseIdentifier;
-const CONSTANTS = require('xsd2jsonschema').Constants;
-const BaseConversionVisitor = require('xsd2jsonschema').BaseConversionVisitor;
-const DepthFirstTraversal = require('xsd2jsonschema').DepthFirstTraversal;
+const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
+const XsdElements = require('@ghilainm/xsd2jsonschema').XsdElements;
+const JsonSchemaFileDraft04 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const BuiltInTypeConverter = require('@ghilainm/xsd2jsonschema').BuiltInTypeConverter;
+const NamespaceManager = require('@ghilainm/xsd2jsonschema').NamespaceManager;
+const ConverterDraft04 = require('@ghilainm/xsd2jsonschema').ConverterDraft04;
+const BaseSpecialCaseIdentifier = require('@ghilainm/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const CONSTANTS = require('@ghilainm/xsd2jsonschema').Constants;
+const BaseConversionVisitor = require('@ghilainm/xsd2jsonschema').BaseConversionVisitor;
+const DepthFirstTraversal = require('@ghilainm/xsd2jsonschema').DepthFirstTraversal;
 
 describe('BaseConversionVisitor Test -', function () {
     var traversal;

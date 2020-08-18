@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:OptionalSequenceFunctionalTest');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:OptionalSequenceFunctionalTest');
 const BaseFunctionalTest = require('./baseFunctionalTest');
 
 class OptionalSequenceFunctionalTest extends BaseFunctionalTest {

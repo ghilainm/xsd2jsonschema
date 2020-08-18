@@ -2,12 +2,12 @@
 
 const URI = require('urijs');
 const deepEql = require('deep-eql');
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const JsonSchemaFile = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const JSON_SCHEMA_TYPES = require('xsd2jsonschema').JsonSchemaTypes;
-const CONSTANTS = require('xsd2jsonschema').Constants;
+const BuiltInTypeConverter = require('@ghilainm/xsd2jsonschema').BuiltInTypeConverter;
+const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
+const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const NamespaceManager = require('@ghilainm/xsd2jsonschema').NamespaceManager;
+const JSON_SCHEMA_TYPES = require('@ghilainm/xsd2jsonschema').JsonSchemaTypes;
+const CONSTANTS = require('@ghilainm/xsd2jsonschema').Constants;
 
 describe('NamespaceManager Test - ', function() {
     var namespaceManager;

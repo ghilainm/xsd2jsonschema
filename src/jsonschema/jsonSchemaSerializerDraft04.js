@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:JsonSchemaFile');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:JsonSchemaFile');
 
 const PropertyDefinable = require('../propertyDefinable');
 

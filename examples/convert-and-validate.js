@@ -4,7 +4,7 @@
 
 "use strict";
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
+const Xsd2JsonSchema = require('@ghilainm/xsd2jsonschema').Xsd2JsonSchema;
 const Ajv = require('ajv');
 
 const ajv = new Ajv({

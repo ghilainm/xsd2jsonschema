@@ -1,6 +1,6 @@
 'use strict';
 
-const PropertyDefinable = require('xsd2jsonschema').PropertyDefinable;
+const PropertyDefinable = require('@ghilainm/xsd2jsonschema').PropertyDefinable;
 
 describe('PropertyDefinalbe using definePropertiesFromObject() Test -', function () {
     const property1_NAME = Symbol();

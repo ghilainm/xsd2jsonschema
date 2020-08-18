@@ -1,12 +1,12 @@
 'use strict'
 
 const URI = require('urijs');
-const JsonSchemaFile = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const XsdAttributeValues = require('xsd2jsonschema').XsdAttributeValues;
-const JsonSchemaTypes = require('xsd2jsonschema').JsonSchemaTypes;
-const JsonSchemaFormats = require('xsd2jsonschema').JsonSchemaFormats;
-const Constants = require('xsd2jsonschema').Constants;
+const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
+const XsdAttributeValues = require('@ghilainm/xsd2jsonschema').XsdAttributeValues;
+const JsonSchemaTypes = require('@ghilainm/xsd2jsonschema').JsonSchemaTypes;
+const JsonSchemaFormats = require('@ghilainm/xsd2jsonschema').JsonSchemaFormats;
+const Constants = require('@ghilainm/xsd2jsonschema').Constants;
 
 describe('JsonSchemaFile Test -', function () {
     var testJsonSchema;

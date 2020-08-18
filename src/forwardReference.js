@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:ForwardReference')
+const debug = require('debug')('@ghilainm/xsd2jsonschema:ForwardReference')
 
 const URI = require('urijs');
 const clone = require('clone');

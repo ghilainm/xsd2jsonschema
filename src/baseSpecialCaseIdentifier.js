@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:BaseSpecialCaseIdentifier');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:BaseSpecialCaseIdentifier');
 
 const XsdFile = require('./xmlschema/xsdFileXmlDom');
 const XsdAttributes = require('./xmlschema/xsdAttributes');

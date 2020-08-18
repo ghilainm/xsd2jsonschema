@@ -1,6 +1,6 @@
 "use strict";
 
-const Processor = require('xsd2jsonschema').Processor;
+const Processor = require('@ghilainm/xsd2jsonschema').Processor;
 
 class XsdTestSuiteProcessor extends Processor {
 

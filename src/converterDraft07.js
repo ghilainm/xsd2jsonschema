@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:ConverterDraft07')
+const debug = require('debug')('@ghilainm/xsd2jsonschema:ConverterDraft07')
 
 const ConverterDraft06 = require('./converterDraft06');
 

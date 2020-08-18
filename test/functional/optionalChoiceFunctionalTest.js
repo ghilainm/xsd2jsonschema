@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:OptionalChoiceFunctionalTest');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:OptionalChoiceFunctionalTest');
 const BaseFunctionalTest = require('./baseFunctionalTest');
 
 class OptionalChoiceFunctionalTest extends BaseFunctionalTest {

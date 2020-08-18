@@ -21,7 +21,7 @@ const XML_SCHEMA_ANNOTATION = `
 </xs:schema>
 `;
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
+const Xsd2JsonSchema = require('@ghilainm/xsd2jsonschema').Xsd2JsonSchema;
 const xs2js = new Xsd2JsonSchema();
 
 const convertedSchemas = xs2js.processAllSchemas({

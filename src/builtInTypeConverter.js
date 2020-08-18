@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:BuiltInTypeConverter');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:BuiltInTypeConverter');
 
 const CONSTANTS = require('./constants');
 const JSON_SCHEMA_TYPES = require('./jsonschema/jsonSchemaTypes');

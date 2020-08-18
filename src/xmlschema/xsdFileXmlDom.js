@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:XsdFile');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:XsdFile');
 
 const DOMParser = require('xmldom').DOMParser;
 const xpathProcessor = require('xpath');

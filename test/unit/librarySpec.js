@@ -2,38 +2,38 @@
 
 const deepEql = require('deep-eql');
 
-const XsdAttributes = require('xsd2jsonschema').XsdAttributes;
-const XsdAttributeValues = require('xsd2jsonschema').XsdAttributeValues;
-const XsdElements = require('xsd2jsonschema').XsdElements;
-const XsdFile = require('xsd2jsonschema').XsdFile;
+const XsdAttributes = require('@ghilainm/xsd2jsonschema').XsdAttributes;
+const XsdAttributeValues = require('@ghilainm/xsd2jsonschema').XsdAttributeValues;
+const XsdElements = require('@ghilainm/xsd2jsonschema').XsdElements;
+const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
 
-const JsonSchemaTypes = require('xsd2jsonschema').JsonSchemaTypes;
-const JsonSchemaFormats = require('xsd2jsonschema').JsonSchemaFormats;
-const JsonSchemaFile = require('xsd2jsonschema').JsonSchemaFile;
-const JsonSchemaFileDraft04 = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const JsonSchemaFileDraft06 = require('xsd2jsonschema').JsonSchemaFileDraft06;
-const JsonSchemaFileDraft07 = require('xsd2jsonschema').JsonSchemaFileDraft07;
-const JsonSchemaRef = require('xsd2jsonschema').JsonSchemaRef;
+const JsonSchemaTypes = require('@ghilainm/xsd2jsonschema').JsonSchemaTypes;
+const JsonSchemaFormats = require('@ghilainm/xsd2jsonschema').JsonSchemaFormats;
+const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFile;
+const JsonSchemaFileDraft04 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaFileDraft06 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft06;
+const JsonSchemaFileDraft07 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft07;
+const JsonSchemaRef = require('@ghilainm/xsd2jsonschema').JsonSchemaRef;
 
-const DefaultConversionVisitor = require('xsd2jsonschema').DefaultConversionVisitor;
-const BaseConversionVisitor = require('xsd2jsonschema').BaseConversionVisitor;
-const XmlUsageVisitor = require('xsd2jsonschema').XmlUsageVisitor;
-const XmlUsageVisitorSum = require('xsd2jsonschema').XmlUsageVisitorSum;
+const DefaultConversionVisitor = require('@ghilainm/xsd2jsonschema').DefaultConversionVisitor;
+const BaseConversionVisitor = require('@ghilainm/xsd2jsonschema').BaseConversionVisitor;
+const XmlUsageVisitor = require('@ghilainm/xsd2jsonschema').XmlUsageVisitor;
+const XmlUsageVisitorSum = require('@ghilainm/xsd2jsonschema').XmlUsageVisitorSum;
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
-const Processor = require('xsd2jsonschema').Processor;
-const ConverterDraft04 = require('xsd2jsonschema').ConverterDraft04;
-const ConverterDraft06 = require('xsd2jsonschema').ConverterDraft06;
-const ConverterDraft07 = require('xsd2jsonschema').ConverterDraft07;
-const BaseSpecialCaseIdentifier = require('xsd2jsonschema').BaseSpecialCaseIdentifier;
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const PropertyDefinable = require('xsd2jsonschema').PropertyDefinable;
-const DepthFirstTraversal = require('xsd2jsonschema').DepthFirstTraversal;
-const ParsingState = require('xsd2jsonschema').ParsingState;
-const State = require('xsd2jsonschema').State;
-const ForwardReference = require('xsd2jsonschema').ForwardReference;
-const CONSTANTS = require('xsd2jsonschema').Constants;
+const Xsd2JsonSchema = require('@ghilainm/xsd2jsonschema').Xsd2JsonSchema;
+const Processor = require('@ghilainm/xsd2jsonschema').Processor;
+const ConverterDraft04 = require('@ghilainm/xsd2jsonschema').ConverterDraft04;
+const ConverterDraft06 = require('@ghilainm/xsd2jsonschema').ConverterDraft06;
+const ConverterDraft07 = require('@ghilainm/xsd2jsonschema').ConverterDraft07;
+const BaseSpecialCaseIdentifier = require('@ghilainm/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const BuiltInTypeConverter = require('@ghilainm/xsd2jsonschema').BuiltInTypeConverter;
+const NamespaceManager = require('@ghilainm/xsd2jsonschema').NamespaceManager;
+const PropertyDefinable = require('@ghilainm/xsd2jsonschema').PropertyDefinable;
+const DepthFirstTraversal = require('@ghilainm/xsd2jsonschema').DepthFirstTraversal;
+const ParsingState = require('@ghilainm/xsd2jsonschema').ParsingState;
+const State = require('@ghilainm/xsd2jsonschema').State;
+const ForwardReference = require('@ghilainm/xsd2jsonschema').ForwardReference;
+const CONSTANTS = require('@ghilainm/xsd2jsonschema').Constants;
 
 // Library
 //const CheckXsdAttributes = require('../../src/xmlschema/xsdAttributes');
@@ -178,7 +178,7 @@ describe('The Library Test -', function () {
         expect(xmlUsageVisitorSum).toEqual(jasmine.any(CheckXmlUsageVisitorSum));
     });
 
-    it('xsd2JsonSchema should be an instantOf the Xsd2JsonSchema class', function () {
+    it('@ghilainm/xsd2jsonschema should be an instantOf the Xsd2JsonSchema class', function () {
         expect(xsd2JsonSchema instanceof CheckXsd2JsonSchema).toBeTruthy();
         expect(xsd2JsonSchema).toEqual(jasmine.any(CheckXsd2JsonSchema));
     });

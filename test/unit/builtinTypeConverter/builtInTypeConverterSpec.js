@@ -1,10 +1,10 @@
 'use strict'
 
-const BuiltInTypeConverter = require("xsd2jsonschema").BuiltInTypeConverter;
-const JsonSchemaFile = require("xsd2jsonschema").JsonSchemaFileDraft04;
-const jsonSchemaTypes = require("xsd2jsonschema").JsonSchemaTypes;
-const jsonSchemaFormats = require("xsd2jsonschema").JsonSchemaFormats;
-const Constants = require("xsd2jsonschema").Constants;
+const BuiltInTypeConverter = require("@ghilainm/xsd2jsonschema").BuiltInTypeConverter;
+const JsonSchemaFile = require("@ghilainm/xsd2jsonschema").JsonSchemaFileDraft04;
+const jsonSchemaTypes = require("@ghilainm/xsd2jsonschema").JsonSchemaTypes;
+const jsonSchemaFormats = require("@ghilainm/xsd2jsonschema").JsonSchemaFormats;
+const Constants = require("@ghilainm/xsd2jsonschema").Constants;
 
 describe("BuiltInTypeConverter Test -", function() {
     var rc = new BuiltInTypeConverter();

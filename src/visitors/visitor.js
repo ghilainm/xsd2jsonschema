@@ -1,6 +1,6 @@
 'use strict'
 
-const debug = require('debug')('xsd2jsonschema:Visitor');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:Visitor');
 
 const Processor = require('./../processor');
 const XsdFile = require('./../xmlschema/xsdFileXmlDom');

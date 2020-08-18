@@ -1,7 +1,7 @@
 'use strict';
 
 
-const debug = require('debug')('xsd2jsonschema:JsonSchemaRef');
+const debug = require('debug')('@ghilainm/xsd2jsonschema:JsonSchemaRef');
 const JsonSchemaFile = require('./jsonSchemaFile');
 const JsonSchemaSerializerDraft04 = require('./jsonSchemaSerializerDraft04');
 
