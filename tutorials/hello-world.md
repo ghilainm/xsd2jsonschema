@@ -17,7 +17,7 @@ Consider the file hello-world.js, which is shown below in its entirety, from the
 
 'use strict';
 
-const Xsd2JsonSchema = require('@ghilainm/xsd2jsonschema').Xsd2JsonSchema;
+const Xsd2JsonSchema = require('@matthieu.ghilain/xsd2jsonschema').Xsd2JsonSchema;
 
 const XML_SCHEMA = `
 <?xml version="1.0" encoding="UTF-8"?>

@@ -1,5 +1,5 @@
 {
-  "name": "@ghilainm/xsd2jsonschema",
+  "name": "@matthieu.ghilain/xsd2jsonschema",
   "description": "A pure JavaScript library for converting complex XML Schemas into equivalent JSON Schemas.",
   "version": "0.0.1",
   "homepage": "http://www.xsd2jsonschema.org",

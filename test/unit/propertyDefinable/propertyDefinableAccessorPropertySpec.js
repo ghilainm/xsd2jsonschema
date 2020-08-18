@@ -1,6 +1,6 @@
 'use strict';
 
-const PropertyDefinable = require('@ghilainm/xsd2jsonschema').PropertyDefinable;
+const PropertyDefinable = require('@matthieu.ghilain/xsd2jsonschema').PropertyDefinable;
 
 describe('PropertyDefinable using defineAccessorProperty() Test -', function() {
     const positiveNumber1_NAME = Symbol();

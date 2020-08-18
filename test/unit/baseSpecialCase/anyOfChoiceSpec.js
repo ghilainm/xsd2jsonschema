@@ -1,10 +1,10 @@
 'use strict';
 
-const debug = require('debug')('@ghilainm/xsd2jsonschema:BaseSpecialCaseIdentifier:AnyOfChoice')
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:BaseSpecialCaseIdentifier:AnyOfChoice')
 
-const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
-const BaseSpecialCaseIdentifier = require('@ghilainm/xsd2jsonschema').BaseSpecialCaseIdentifier;
-const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const BaseSpecialCaseIdentifier = require('@matthieu.ghilain/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const JsonSchemaFile = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
 
 const XML_SCHEMA = 
 `

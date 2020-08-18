@@ -1,6 +1,6 @@
 "use strict";
 
-const debug = require("debug")("@ghilainm/xsd2jsonschema:SiblingChoiceFunctionalTest");
+const debug = require("debug")("@matthieu.ghilain/xsd2jsonschema:SiblingChoiceFunctionalTest");
 const BaseFunctionalTest = require("./baseFunctionalTest");
 
 class SiblingChoiceFunctionalTest extends BaseFunctionalTest {

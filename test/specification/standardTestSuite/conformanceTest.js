@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const path = require("path");
 const xml2js = require('xml2js');
 const Ajv = require('ajv');
-const Xsd2JsonSchema = require('@ghilainm/xsd2jsonschema').Xsd2JsonSchema;
+const Xsd2JsonSchema = require('@matthieu.ghilain/xsd2jsonschema').Xsd2JsonSchema;
 const XsdTestSuiteProcessor = require('./xsdTestSuiteProcessor');
 
 const baseTestDataDir = 'TestFiles';

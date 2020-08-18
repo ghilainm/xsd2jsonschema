@@ -1,9 +1,9 @@
 'use strict';
 
-const debug = require('debug')('@ghilainm/xsd2jsonschema:CloneSpec');
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:CloneSpec');
 
 const clone = require('clone');
-const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaFile = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
 
 it('should clone the jsonSchema', function() {
     const child = new JsonSchemaFile();

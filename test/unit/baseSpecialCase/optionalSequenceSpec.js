@@ -1,7 +1,7 @@
 'use strict';
 
-const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
-const BaseSpecialCaseIdentifier = require('@ghilainm/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const BaseSpecialCaseIdentifier = require('@matthieu.ghilain/xsd2jsonschema').BaseSpecialCaseIdentifier;
 
 
 describe('BaseSpecialCaseIdentifier Test -', function () {

@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('@ghilainm/xsd2jsonschema:ConverterDraft04')
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:ConverterDraft04')
 
 const URI = require('urijs');
 const Qname = require('./qname');

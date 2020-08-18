@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('@ghilainm/xsd2jsonschema:ParsingState');
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:ParsingState');
 
 const XsdElements = require('./xmlschema/xsdElements');
 const XsdFile = require('./xmlschema/xsdFileXmlDom');

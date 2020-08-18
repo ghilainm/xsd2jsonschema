@@ -2,8 +2,8 @@
 'use strict';
 
 const URI = require('urijs');
-const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
-const XsdNodeTypes = require('@ghilainm/xsd2jsonschema').XsdNodeTypes;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const XsdNodeTypes = require('@matthieu.ghilain/xsd2jsonschema').XsdNodeTypes;
 
 describe('XsdFileXmlDomFile Test -', function() {
     var example;

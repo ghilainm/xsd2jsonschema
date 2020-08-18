@@ -1,8 +1,8 @@
 'use strict'
 
 const URI = require('urijs');
-const JsonSchemaFile = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
-const JsonSchemaRef = require('@ghilainm/xsd2jsonschema').JsonSchemaRef;
+const JsonSchemaFile = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaRef = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaRef;
 
 describe('JsonSchemaRef Test -', function () {
     var baseJsonSchema;

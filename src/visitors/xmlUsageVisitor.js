@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('@ghilainm/xsd2jsonschema:XmlUsageVisitor');
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:XmlUsageVisitor');
 
 const BaseConvertionVisitor = require('./baseConversionVisitor');
 const XsdAttributes = require('./../xmlschema/xsdAttributes');

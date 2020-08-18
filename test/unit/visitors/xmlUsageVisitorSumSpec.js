@@ -1,9 +1,9 @@
 'use strict';
 
-const XsdFile = require('@ghilainm/xsd2jsonschema').XsdFile;
-const XsdElements = require('@ghilainm/xsd2jsonschema').XsdElements;
-const JsonSchemaFileDraft04 = require('@ghilainm/xsd2jsonschema').JsonSchemaFileDraft04;
-const XmlUsageVisitorSum = require('@ghilainm/xsd2jsonschema').XmlUsageVisitorSum;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const XsdElements = require('@matthieu.ghilain/xsd2jsonschema').XsdElements;
+const JsonSchemaFileDraft04 = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
+const XmlUsageVisitorSum = require('@matthieu.ghilain/xsd2jsonschema').XmlUsageVisitorSum;
 
 describe('DepthFirstTraversal Test -', function () {
     var xsd;
