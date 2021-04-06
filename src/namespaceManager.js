@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:NamespaceManager');
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:NamespaceManager');
 
 const URI = require('urijs');
 const XsdAttributes = require('./xmlschema/xsdAttributes');

@@ -2,30 +2,30 @@
 
 const URI = require('urijs');
 
-const XsdAttributes = require('xsd2jsonschema').XsdAttributes;
-const XsdElements = require('xsd2jsonschema').XsdElements;
-const XsdFile = require('xsd2jsonschema').XsdFile;
+const XsdAttributes = require('@matthieu.ghilain/xsd2jsonschema').XsdAttributes;
+const XsdElements = require('@matthieu.ghilain/xsd2jsonschema').XsdElements;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
 
-const JsonSchemaTypes = require('xsd2jsonschema').JsonSchemaTypes;
-const JsonSchemaFormats = require('xsd2jsonschema').JsonSchemaFormats;
-const JsonSchemaFileDraft04 = require('xsd2jsonschema').JsonSchemaFileDraft04;
+const JsonSchemaTypes = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaTypes;
+const JsonSchemaFormats = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFormats;
+const JsonSchemaFileDraft04 = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
 
-const DefaultConversionVisitor = require('xsd2jsonschema').DefaultConversionVisitor;
-const BaseConversionVisitor = require('xsd2jsonschema').BaseConversionVisitor;
-const XmlUsageVisitor = require('xsd2jsonschema').XmlUsageVisitor;
-const XmlUsageVisitorSum = require('xsd2jsonschema').XmlUsageVisitorSum;
+const DefaultConversionVisitor = require('@matthieu.ghilain/xsd2jsonschema').DefaultConversionVisitor;
+const BaseConversionVisitor = require('@matthieu.ghilain/xsd2jsonschema').BaseConversionVisitor;
+const XmlUsageVisitor = require('@matthieu.ghilain/xsd2jsonschema').XmlUsageVisitor;
+const XmlUsageVisitorSum = require('@matthieu.ghilain/xsd2jsonschema').XmlUsageVisitorSum;
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
-const Processor = require('xsd2jsonschema').Processor;
-const ConverterDraft06 = require('xsd2jsonschema').ConverterDraft06;
-const ConverterDraft07 = require('xsd2jsonschema').ConverterDraft07;
-const BaseSpecialCaseIdentifier = require('xsd2jsonschema').BaseSpecialCaseIdentifier;
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const CONSTANTS = require('xsd2jsonschema').Constants;
+const Xsd2JsonSchema = require('@matthieu.ghilain/xsd2jsonschema').Xsd2JsonSchema;
+const Processor = require('@matthieu.ghilain/xsd2jsonschema').Processor;
+const ConverterDraft06 = require('@matthieu.ghilain/xsd2jsonschema').ConverterDraft06;
+const ConverterDraft07 = require('@matthieu.ghilain/xsd2jsonschema').ConverterDraft07;
+const BaseSpecialCaseIdentifier = require('@matthieu.ghilain/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const BuiltInTypeConverter = require('@matthieu.ghilain/xsd2jsonschema').BuiltInTypeConverter;
+const NamespaceManager = require('@matthieu.ghilain/xsd2jsonschema').NamespaceManager;
+const CONSTANTS = require('@matthieu.ghilain/xsd2jsonschema').Constants;
 
 
-describe('Xsd2JsonSchema Test -', function() {
+describe('@matthieu.ghilain/xsd2jsonschema Test -', function() {
 
     it('should create a xsd2JsonSchema instance with default values', function() {
         const xsd2JsonSchema = new Xsd2JsonSchema();

@@ -1,14 +1,14 @@
 'use strict';
 
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const JsonSchemaFileDraft04 = require('xsd2jsonschema').JsonSchemaFileDraft04;
-const jsonSchemaTypes = require('xsd2jsonschema').JsonSchemaTypes;
-const jsonSchemaFormats = require('xsd2jsonschema').JsonSchemaFormats;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const JSON_SCHEMA_TYPES = require('xsd2jsonschema').JsonSchemaTypes;
-const XsdElements = require('xsd2jsonschema').XsdElements;
-const ParsingState = require('xsd2jsonschema').ParsingState;
+const BuiltInTypeConverter = require('@matthieu.ghilain/xsd2jsonschema').BuiltInTypeConverter;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const JsonSchemaFileDraft04 = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft04;
+const jsonSchemaTypes = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaTypes;
+const jsonSchemaFormats = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFormats;
+const NamespaceManager = require('@matthieu.ghilain/xsd2jsonschema').NamespaceManager;
+const JSON_SCHEMA_TYPES = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaTypes;
+const XsdElements = require('@matthieu.ghilain/xsd2jsonschema').XsdElements;
+const ParsingState = require('@matthieu.ghilain/xsd2jsonschema').ParsingState;
 
 describe('ParsingState Test - ', function() {
     var parsingState;

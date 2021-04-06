@@ -1,6 +1,6 @@
 "use strict";
 
-const debug = require("debug")("xsd2jsonschema:AnyOfChoiceFunctionalTest");
+const debug = require("debug")("@matthieu.ghilain/xsd2jsonschema:AnyOfChoiceFunctionalTest");
 const BaseFunctionalTest = require("./baseFunctionalTest");
 
 class AnyOfChoiceFunctionalTest extends BaseFunctionalTest {

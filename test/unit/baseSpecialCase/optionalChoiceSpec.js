@@ -1,7 +1,7 @@
 'use strict';
 
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const BaseSpecialCaseIdentifier = require('xsd2jsonschema').BaseSpecialCaseIdentifier;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const BaseSpecialCaseIdentifier = require('@matthieu.ghilain/xsd2jsonschema').BaseSpecialCaseIdentifier;
 
 const XML_SCHEMA = 
 `

@@ -1,7 +1,7 @@
 
 'use strict';
 
-const XsdNodeTypes = require('xsd2jsonschema').XsdNodeTypes;
+const XsdNodeTypes = require('@matthieu.ghilain/xsd2jsonschema').XsdNodeTypes;
 
 describe('JsonSchemaFile Test -', function() {
     it('should return the name of the type when given the numeric code', function() {

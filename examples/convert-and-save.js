@@ -7,7 +7,7 @@
 const fs = require('fs');
 const URI = require('urijs');
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
+const Xsd2JsonSchema = require('@matthieu.ghilain/xsd2jsonschema').Xsd2JsonSchema;
 
 const xsdSchemas = {
 	'BaseTypes.xsd': `

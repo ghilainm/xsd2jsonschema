@@ -1,12 +1,12 @@
 'use strict';
 
-const XsdFile = require('xsd2jsonschema').XsdFile;
-const JsonSchemaFileDraft06 = require('xsd2jsonschema').JsonSchemaFileDraft06;
-const ConverterDraft06 = require('xsd2jsonschema').ConverterDraft06;
-const BaseSpecialCaseIdentifier = require('xsd2jsonschema').BaseSpecialCaseIdentifier;
-const NamespaceManager = require('xsd2jsonschema').NamespaceManager;
-const BuiltInTypeConverter = require('xsd2jsonschema').BuiltInTypeConverter;
-const CONSTANTS = require('xsd2jsonschema').Constants;
+const XsdFile = require('@matthieu.ghilain/xsd2jsonschema').XsdFile;
+const JsonSchemaFileDraft06 = require('@matthieu.ghilain/xsd2jsonschema').JsonSchemaFileDraft06;
+const ConverterDraft06 = require('@matthieu.ghilain/xsd2jsonschema').ConverterDraft06;
+const BaseSpecialCaseIdentifier = require('@matthieu.ghilain/xsd2jsonschema').BaseSpecialCaseIdentifier;
+const NamespaceManager = require('@matthieu.ghilain/xsd2jsonschema').NamespaceManager;
+const BuiltInTypeConverter = require('@matthieu.ghilain/xsd2jsonschema').BuiltInTypeConverter;
+const CONSTANTS = require('@matthieu.ghilain/xsd2jsonschema').Constants;
 
 const XML_SCHEMA_MIN_EXCLUSIVE =
 `

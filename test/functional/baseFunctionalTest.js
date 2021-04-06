@@ -1,7 +1,7 @@
 "use strict";
 
-const debug = require("debug")("xsd2jsonschema:BaseFunctionalTest");
-const Xsd2JsonSchema = require("xsd2jsonschema").Xsd2JsonSchema;
+const debug = require("debug")("@matthieu.ghilain/xsd2jsonschema:BaseFunctionalTest");
+const Xsd2JsonSchema = require("@matthieu.ghilain/xsd2jsonschema").Xsd2JsonSchema;
 const Ajv = require("ajv");
 const path = require("path");
 

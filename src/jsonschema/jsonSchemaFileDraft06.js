@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('xsd2jsonschema:JsonSchemaFileDraft06');
+const debug = require('debug')('@matthieu.ghilain/xsd2jsonschema:JsonSchemaFileDraft06');
 
 const path = require('path');
 const URI = require('urijs');

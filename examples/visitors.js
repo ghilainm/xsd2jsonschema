@@ -4,13 +4,13 @@
 
 "use strict";
 
-process.env['DEBUG'] = 'xsd2jsonschema:XmlUsageVisitorSum,xsd2jsonschema:XmlUsageVisitor';
+process.env['DEBUG'] = '@matthieu.ghilain/xsd2jsonschema:XmlUsageVisitorSum,xsd2jsonschema:XmlUsageVisitor';
 
 const fs = require('fs');
 
-const Xsd2JsonSchema = require('xsd2jsonschema').Xsd2JsonSchema;
-const XmlUsageVisitor = require('xsd2jsonschema').XmlUsageVisitor;
-const XmlUsageVisitorSum = require('xsd2jsonschema').XmlUsageVisitorSum;
+const Xsd2JsonSchema = require('@matthieu.ghilain/xsd2jsonschema').Xsd2JsonSchema;
+const XmlUsageVisitor = require('@matthieu.ghilain/xsd2jsonschema').XmlUsageVisitor;
+const XmlUsageVisitorSum = require('@matthieu.ghilain/xsd2jsonschema').XmlUsageVisitorSum;
 
 const xsdSchemas = {
     'BaseTypes.xsd' : loadFile('examples/schemas/BaseTypes.xsd'),
